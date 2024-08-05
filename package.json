@@ -1,0 +1,25 @@
+{
+  "name": "crmgraphqlcurso",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Aprendiendo GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "Nicolas Garay Grau",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-link-context": "^1.0.20",
+    "apollo-server": "^3.13.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "npm-check-updates": "^16.14.20"
+  }
+}
